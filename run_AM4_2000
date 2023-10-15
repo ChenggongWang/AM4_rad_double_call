@@ -5,7 +5,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --mem-per-cpu=3500M
 #SBATCH --exclusive
-#SBATCH -t 01:30:00
+#SBATCH -t 02:30:00
 # Sends mail when process begins, and when it ends. 
 # Make sure you define your email
 #SBATCH --mail-type=all
@@ -28,7 +28,7 @@ setenv MAIN_PROGRAM coupler_main.o
 set model_executable = $Root/AM4/exec/am4_xanadu_2021.03.x  # Path to model executable
 set expname = CTL2000_rad_double_call_${platform}_${npes}PE             # Experiment name
 set workdir = /scratch/gpfs/cw55/AM4/work/$expname     # Where model is run and model output is put 
-set num_executions = 1 # Number of times the model is run. Each run restarts from previous run.
+set num_executions = 12 # Number of times the model is run. Each run restarts from previous run.
 set stop_date = 20040101
 #---------------------------------------------------------------------------------
 set namelist   = $expdir/AM4_namelists_CTL2000s_${npes}PE # path to namelist file  (contains all namelists)

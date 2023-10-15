@@ -27,8 +27,8 @@ c96L33_am4p0
 #"radiation", "alb_sfc",                        "alb_sfc",                    "atmos_8xdaily",     "all", .false.,  "none", 2
 "radiation", "tdt_lw",                         "tdt_lw",                     "atmos_8xdaily",     "all", .false.,  "none", 2
 "radiation", "tdt_sw",                         "tdt_sw",                     "atmos_8xdaily",     "all", .false.,  "none", 2
-"radiation", "tdt_lw_ad",                      "tdt_lw_af",                     "atmos_8xdaily",     "all", .false.,  "none", 2
-"radiation", "tdt_sw_ad",                      "tdt_sw_af",                     "atmos_8xdaily",     "all", .false.,  "none", 2
+"radiation", "tdt_lw_ad",                      "tdt_lw_af",                  "atmos_8xdaily",     "all", .false.,  "none", 2
+"radiation", "tdt_sw_ad",                      "tdt_sw_af",                  "atmos_8xdaily",     "all", .false.,  "none", 2
 "radiation", "lwdn_sfc",                       "lwdn_sfc",                   "atmos_8xdaily",     "all", .false.,  "none", 2
 "radiation", "lwup_sfc",                       "lwup_sfc",                   "atmos_8xdaily",     "all", .false.,  "none", 2
 "radiation", "swdn_sfc",                       "swdn_sfc",                   "atmos_8xdaily",     "all", .false.,  "none", 2
